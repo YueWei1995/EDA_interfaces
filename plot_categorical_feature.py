@@ -1,15 +1,11 @@
-# _*_ coding: utf-8 _*_
-
-import pandas as pd
-import numpy as np
-from utils import reduce_mem_usage
-import plotly.offline as py
-import plotly.graph_objs as go
-
-
+# ############################################################################################################################
 # 绘制一个数据集中一个分类特征在label(0或1)上的分布
 # 输入: df为数据集dataframe、cate_col为分类特征名、label_col为标签名、top_n为只统计分类特征的前n个特征值，only_bars指示是否画出折线图
 # 输出： 一个html格式的图片文件，
+
+import plotly.offline as py
+import plotly.graph_objs as go
+
 def plot_categorical_feature(df, cate_col, label_col, top_n=10, only_bars=False):
     top_n = top_n if df[cate_col].nunique() > top_n else df[cate_col].nunique()
     print('{} has {} unique values'.format(cate_col, df[cate_col].nunique()))
@@ -49,29 +45,4 @@ def plot_categorical_feature(df, cate_col, label_col, top_n=10, only_bars=False)
                                 ),
                            legend=dict(orientation='v'), barmode='group')
     py.plot(dict(data=data, layout=layout))
-
-
-file_df = pd.read_table('../data/train.txt', sep='\t')
-columns = ['uid', 'user_city', 'item_id', 'author_id', 'item_city', 'channel', 'finish', 'like', 'music_id',
-           'device_id', 'creat_time', 'video_duration']
-file_df.columns = columns
-reduce_mem_usage(file_df)
-
-plot_categorical_feature(file_df, 'channel', 'finish', 10, True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
