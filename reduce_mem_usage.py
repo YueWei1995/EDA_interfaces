@@ -1,8 +1,11 @@
-# _*_ coding: utf-8 _*_
+
+# ######################################################################################################################
+# 以下的函数可以通过修改不必要的过大的数据类型，来有效减少数据集在内存中的占用空间
+# 输入：可以是一个dataframe
+# 输出：
 
 import pandas as pd
 import numpy as np
-
 
 def reduce_mem_usage(props):
     # 计算当前内存
@@ -67,7 +70,7 @@ def reduce_mem_usage(props):
     print("This is ", 100 * mem_usg / start_mem_usg, "% of the initial size")
     return props, NAlist
 
-
+# 该函数相较于上面的函数，可以在精简内存占用的同时用-999来填补数据集中的缺失值，其他功能基本相似
 def reduce_mem_usage_with_fillna(props):
     # 计算当前内存
     start_mem_usg = props.memory_usage().sum() / 1024 ** 2
