@@ -10,7 +10,7 @@
   舍去无用的特征（列）：
       缺失值占99%的特征；
       某一特征值占所有特征值99%以上的特征；
-      两个完全对应或互补(相关性过高)的特征，可以去掉一个；与标签相关性太低的特征可以去掉？？————“Tested correlations between columns, picked up pairs whose corr is greater than 0.99, compared the distribution of the features in the pairs and corr with the label, and selected the minor column for elimination.”
+      两个完全对应或互补(相关性过高，99%以上)的特征，可以去掉一个；与标签相关性太低的特征可以去掉？？————“Tested correlations between columns, picked up pairs whose corr is greater than 0.99, compared the distribution of the features in the pairs and corr with the label, and selected the minor column for elimination.”
       
   *把特征分为数值特征、分类特征来分别处理，（注意特殊形式的特征，如多值离散特征、向量特征），观察特征在标签上的分布（通过可视化），找出相关性高的特征
   使用lgb查看模型重要度
