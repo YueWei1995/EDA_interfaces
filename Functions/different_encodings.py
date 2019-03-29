@@ -1,5 +1,5 @@
 # 来源自：https://www.kaggle.com/cdeotte/time-series-eda-malware-0-64/notebook
-# 多种不同的特征编码方式
+# 多种不同的特征编码方式：标签编码、频次编码、二元编码、数值编码
 
 # If you call encode_TE, encode_TE_partial, encode_FE_partial, 
 # or encode_BE_partial on training data then the function 
