@@ -3,6 +3,9 @@ https://blog.csdn.net/sinat_26917383/article/details/75174450?locationNum=3&fps=
 
 https://blog.csdn.net/haphapyear/article/details/75057407/
 
+https://www.cnblogs.com/viredery/p/competition_how_to_deal_with_categorical_features.html
+
+https://blog.csdn.net/jdbc/article/details/72468001
 ##########################################################################################################################
 
 特征工程和强特征
