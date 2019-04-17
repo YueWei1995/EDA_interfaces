@@ -46,6 +46,21 @@ df_train['Date'] = df_train['AvSigVersion'].map(datedict)
 df_test['Date'] = df_test['AvSigVersion'].map(datedict)
 # ##################################################################################################
 
+# EDA中每个特征下的数据分布，可以用boxplot或者hist来看
+%matplotlib inline
+import matplotlib.pyplot as plt
+df.boxplot(column='Fare', by = 'Pclass')
+plt.hist(df['Fare'], bins = 10, range =(df['Fare'].min(),df['Fare'].max()))
+plt.title('Fare >distribution')
+plt.xlabel('Fare')
+plt.ylabel('Count of Passengers')
+
+# 如果变量是categorical的，想看distribution，则可以：
+df.PdDistrict.value_counts().plot(kind='bar', figsize=(8,10))
+
+# 如果想看几个feature之间的联立情况，则可以用pandas的groupby,
+temp = pd.crosstab([df.Pclass, df.Sex], df.Survived.astype(bool))
+temp.plot(kind='bar', stacked=True, color=['red','blue'], grid=False)
 
 
 
