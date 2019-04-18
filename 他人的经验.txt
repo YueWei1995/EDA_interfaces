@@ -10,6 +10,24 @@ https://blog.csdn.net/jdbc/article/details/72468001
 https://yq.aliyun.com/articles/665708
 
 https://zhuanlan.zhihu.com/p/33429338
+
+https://zhuanlan.zhihu.com/p/38034501
+
+https://zhuanlan.zhihu.com/p/60416895
+
+https://zhuanlan.zhihu.com/p/40479648
+
+https://www.kesci.com/home/project/59f687e1c5f3f511952baca0
+
+https://blog.csdn.net/wtq1993/article/details/51418958
+
+https://segmentfault.com/a/1190000012084849?utm_source=tag-newest
+
+https://blog.csdn.net/u010899985/article/details/81626808
+
+https://blog.csdn.net/javastart/article/details/77015603
+
+https://blog.csdn.net/cymy001/article/details/78641337
 ##########################################################################################################################
 
 特征工程和强特征
@@ -66,8 +84,6 @@ https://blog.csdn.net/cg129054036/article/details/82496894
 https://blog.csdn.net/cg129054036/article/details/82811548?utm_source=blogxgwz0
 
 https://www.zhihu.com/question/64350623
-
-https://blog.csdn.net/u010899985/article/details/81626808
 
 http://www.sofasofa.io/forum_main_post.php?postid=1001914
 
