@@ -6,6 +6,10 @@ https://blog.csdn.net/haphapyear/article/details/75057407/
 https://www.cnblogs.com/viredery/p/competition_how_to_deal_with_categorical_features.html
 
 https://blog.csdn.net/jdbc/article/details/72468001
+
+https://yq.aliyun.com/articles/665708
+
+https://zhuanlan.zhihu.com/p/33429338
 ##########################################################################################################################
 
 特征工程和强特征
@@ -34,8 +38,6 @@ https://blog.csdn.net/u013181595/article/details/80680404?utm_source=blogxgwz0
 https://zhuanlan.zhihu.com/p/33429338
 
 https://blog.csdn.net/u013317445/article/details/85100884
-
-https://blog.csdn.net/jdbc/article/details/72468001
 
 https://zhuanlan.zhihu.com/p/38034501
 
